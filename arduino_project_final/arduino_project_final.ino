@@ -19,7 +19,7 @@ int thousand, hundred, ten, one, countdown;
 void setup() {
   tm1637.init();
   tm1637.set(BRIGHT_TYPICAL);
-  pinMode(BUTTONPIN1, INPUT);
+  pinMode(BUTTONPIN1, INPUT_PULLUP);
   pinMode(BUTTONPIN2, INPUT_PULLUP);
   pinMode(BUTTONPIN3, INPUT_PULLUP);
   pinMode(BUTTONPIN4, INPUT_PULLUP);
