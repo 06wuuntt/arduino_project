@@ -1,2 +1,2 @@
-# cellphone-timing-box
-arduino
+# arduino_project
+這是我在高三上自學並製作的 arduino 專題，主題為手機計時保管箱，功能包括透過按鈕設定時間、控制伺服馬達等
